@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+
+body{
+	font-family:sans-serif;
+}
+
+.container{
+	width:1024px; 
+	margin:auto;
+	height:100vh;
+	background-color:blue;
+}
+
+.mainpic{
+	display:inline-block; 
+	vertical-align:top; 
+	color:white; 
+	text-shadow: 1px 2px 3px #666; 
+	width:500px; 
+	height:300px;  
+	margin-right:10px;
+}
+
+.mainpictext{
+	position:relative;
+	top:-170px; 
+	padding:10px; 
+}
+
+.file{
+	position:relative;
+	top:-190px;
+	left:10px;	
+}
+
+.file1{
+	position:relative;
+	top:-160px;
+	left:10px;	
+}
+
+.file2{
+	position:relative;
+	top:-164px;
+	left:10px;	
+}
+
+.file3{
+	position:relative;
+	top:-165px;
+	left:10px;	
+}
+
+.file4{
+	position:relative;
+	top:-160px;
+	left:10px;	
+}
+
+.secondarypic{
+	display:inline-block; 
+	vertical-align:top; 
+	color:white; 
+	text-shadow: 1px 2px 3px #666;
+	width:500px;
+	height:300px;
+} 
+
+
+.secondarypictext{
+	position: relative; 
+   	top: -140px;  
+	padding:10px;
+}
+
+.secondarypic2{
+	display:inline-block;
+	vertical-align:top;
+	width:245px;
+	height:145px;
+}
+
+.Right{
+	margin-right:5px;
+}
+
+.small-img{ 
+	width:100%;
+	margins:auto;
+}
+
+.img{
+	display:inline-block;
+	vertical-align:top;
+	width:313px;
+	color:black;
+	margin-left:10px;
+	margin-right:10px;
+	overflow:hidden;
+}
+
+h1{
+	font-size:24px;		
+}
+
+h2{
+	font-size:20px;		
+}
+
+h3{
+	font-size:16px;		
+}
+
+h4{
+	font-size:12px;		
+}
+p{
+	font-size:12px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+	
+}
+
+li {
+    float: left;
+}
+
+li img {
+    margin-top: 10px;
+	margin-left: 3px;
+	margin-right:15px;
+	
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	border-left: solid 1px #817E7E;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+ .main{
+	 display:inline-block; 
+	vertical-align:top; 
+	color:white; 
+	text-shadow: 1px 2px 3px #666; 
+	width:800px; 
+	height:600px;  
+	margin-right:10px;
+ }
+ 
+ .maintext{
+	position:relative;
+	top:-170px; 
+	padding:10px; 
+	color:black;
+}
+.text{
+	color:black;
+	float:left;
+	font-size:30%;
+	text-align:center;
+	
+}
+.image{
+	float:left;
+	width:330px;
+	height:330px;
+}
+.aboutme{
+	font-size:30%;
+	text-align:center;
+}
+#backgroundimage{
+	color:black;
+	width:100%;
+	height:75%;
+	background-image: url("pink.jpg");
+	background-position:center top;
+}
+header{
+	width:100%;
+	height:75%;
+	background-image: url("pink.jpg");
+	background-position:center top;
+}
